@@ -8,7 +8,7 @@ def factorial(n):
     1
     >>> factorial(1)
     1
-    >>> factorial(-1)
+    >>> factorial(-1) 
     0
     >>> factorial(10)
     3628800
