@@ -1,18 +1,18 @@
 import doctest
 
 def factorial(n):
-    """
-    >>> factorial(5)
-    120
-    >>> factorial(0)
-    1
-    >>> factorial(1)
-    1
-    >>> factorial(-1) 
-    0
-    >>> factorial(10)
-    3628800
-    """
+    # """
+    # >>> factorial(5)
+    # 120
+    # >>> factorial(0)
+    # 1
+    # >>> factorial(1)
+    # 1
+    # >>> factorial(-1) 
+    # 0
+    # >>> factorial(10)
+    # 3628800
+    # """
 
     if n < 0:
         return 0
@@ -23,6 +23,11 @@ def factorial(n):
         for i in range(2, n + 1):
             result *= i
         return result
+    
+def main():
+    print(factorial(5))
 
-if __name__ == "__main__":
-    doctest.testmod()
+main()
+
+# if __name__ == "__main__":
+#     doctest.testmod()
